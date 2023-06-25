@@ -1,10 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-// @ts-ignore
 import JobList from './components/JobList.vue'
-// @ts-ignore
-import Job from './types/Job'
-import OrderTerm from './types/OrderTerm'
+import type { Job } from './types/Job'
+import type { OrderTerm } from './types/OrderTerm'
 
 const jobs = ref<Job[]>([
   {

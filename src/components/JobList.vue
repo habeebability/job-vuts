@@ -24,9 +24,9 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import Job from '@/types/Job'
-import OrderTerm from '@/types/OrderTerm'
-import { PropType } from 'vue'
+import type { Job } from '@/types/Job'
+import type { OrderTerm } from '@/types/OrderTerm'
+import type { PropType } from 'vue'
 
 const props = defineProps({
   jobs: {
